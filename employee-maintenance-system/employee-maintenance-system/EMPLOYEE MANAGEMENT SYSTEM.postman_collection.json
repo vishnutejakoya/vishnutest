@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "6785840b-8aa3-47df-9d50-3d3e6a55cf5d",
+		"name": "EMPLOYEE MANAGEMENT SYSTEM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:59061/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59061",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:59061/Employee/Edit/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59061",
+					"path": [
+						"Employee",
+						"Edit",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"firstName\": \"Sample FirtName\",\r\n    \"middleName\": \"Sample MiddleName\",\r\n    \"lastName\": \"Sample LastName\",\r\n    \"password\": \"Sample@123\",\r\n    \"dateOfBirth\": \"2000-03-19T00:00Z\",\r\n    \"mobileNumber\": \"1234567890\",\r\n    \"email\": \"test@sample.com\",\r\n    \"address\": \"Sample Address\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:59061/Employee/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59061",
+					"path": [
+						"Employee",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"firstName\": \"Sample FirtName\",\r\n    \"middleName\": \"Sample MiddleName\",\r\n    \"lastName\": \"Sample LastName\",\r\n    \"password\": \"Sample@123\",\r\n    \"dateOfBirth\": \"2000-03-19T00:00Z\",\r\n    \"mobileNumber\": \"1234567890\",\r\n    \"email\": \"test@sample.com\",\r\n    \"address\": \"Sample Address\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:59061/Employee/Edit/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59061",
+					"path": [
+						"Employee",
+						"Edit",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:59061/Employee/Delete/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59061",
+					"path": [
+						"Employee",
+						"Delete",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

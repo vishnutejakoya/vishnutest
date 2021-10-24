@@ -1,0 +1,67 @@
+﻿@model EMS.Models.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h2>Employee List</h2>
+
+<p class="margin-top-alignment">
+    <a class="btn btn-primary" asp-action="Create">
+        <i class="glyphicon glyphicon-user"></i> <span>Create New Employee</span>
+    </a>
+</p>
+<table class="table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.MiddleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.MobileNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Employees)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MiddleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MobileNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td align="center">
+                    @Html.ActionLink("", "Edit", new { id = item.Id }, new { @class = "btn btn-primary glyphicon glyphicon-pencil", @title="Edit Employee" })&nbsp;
+                    @Html.ActionLink("", "Delete", new { id = item.Id }, new { @class = "btn btn-primary glyphicon glyphicon-remove", @title = "Edit Employee", onclick = "return confirm('Are sure you want to delete the Employee Record??');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

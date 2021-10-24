@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.DataAccess\\EMS.DataAccess.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.DataAccess\\EMS.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.DataAccess\\EMS.DataAccess.csproj",
+        "projectName": "EMS.DataAccess",
+        "projectPath": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.DataAccess\\EMS.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Srivatsan Seshadri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.repo.symbotic.corp/nuget/Common": {},
+          "https://proget.repo.symbotic.corp/nuget/DataServices": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\EMS.Model.csproj": {
+                "projectPath": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\EMS.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\EMS.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\EMS.Model.csproj",
+        "projectName": "EMS.Model",
+        "projectPath": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\EMS.Model.csproj",
+        "packagesPath": "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Srivatsan Seshadri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.repo.symbotic.corp/nuget/Common": {},
+          "https://proget.repo.symbotic.corp/nuget/DataServices": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0-preview.8.20407.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

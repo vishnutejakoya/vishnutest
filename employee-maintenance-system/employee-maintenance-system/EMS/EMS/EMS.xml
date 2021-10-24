@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EMS</name>
+    </assembly>
+    <members>
+        <member name="T:EMS.Controllers.EmployeeController">
+            <summary>
+            Employee Controller. Uses MVC Concept
+            </summary>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.#ctor(EMS.DataAccess.Interfaces.IEmployeeRepository)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="employeeRepository"></param>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Index">
+            <summary>
+            Get All the Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Details(System.Int32)">
+            <summary>
+            Get Employee Details
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Create(System.String)">
+            <summary>
+            Create an Employee
+            </summary>
+            <param name="errorMessage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Create(EMS.Model.Models.Employee)">
+            <summary>
+            Create an Employee Record
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Edit(System.Int32)">
+            <summary>
+            Edit an Employee
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Edit(System.Int32,EMS.Model.Models.Employee)">
+            <summary>
+            Update the Employee Record.
+            </summary>
+            <param name="id"></param>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.EmployeeController.Delete(System.Int32)">
+            <summary>
+            Delete an Employee.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EMS.Controllers.HomeController">
+            <summary>
+            Home Controller
+            </summary>
+        </member>
+        <member name="M:EMS.Controllers.HomeController.Index">
+            <summary>
+            Index Method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.HomeController.About">
+            <summary>
+            About
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.HomeController.Contact">
+            <summary>
+            Contact
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.HomeController.Privacy">
+            <summary>
+            Privacy
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMS.Controllers.HomeController.Error">
+            <summary>
+            Error
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EMS.Models.EmployeeViewModel">
+            <summary>
+            Employee View Model
+            </summary>
+        </member>
+    </members>
+</doc>

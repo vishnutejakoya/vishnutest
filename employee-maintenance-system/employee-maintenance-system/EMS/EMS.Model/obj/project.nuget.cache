@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "VR1wNWAtURsBJzt1Br7VCVn2kWWLz6kpaXIui9HDixLCK+3zQYvTYY/5JDnhYFRLA42Uy5Dx5WyFNWVcYgKFsQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\employee-maintenance-system\\employee-maintenance-system\\EMS\\EMS.Model\\EMS.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Srivatsan Seshadri\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-preview.8.20407.11\\system.componentmodel.annotations.5.0.0-preview.8.20407.11.nupkg.sha512"
+  ],
+  "logs": []
+}
